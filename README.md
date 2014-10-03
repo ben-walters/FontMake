@@ -37,6 +37,10 @@ Parent
 ∟ font-file.css
 
 ```
+
+And the css...
+
+```
 @font-face {
     font-family: "Somefont";
     src: url("./assets/fonts/Somefont.eot");
