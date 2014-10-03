@@ -27,3 +27,16 @@ node maker.js ./Fonts . ./assets/fonts
 ```
 
 BOOSH
+
+```
+@font-face {
+    font-family: "Somefont";
+    src: url("./assets/fonts/Somefont.eot");
+    src: url("./assets/fonts/Somefont.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Somefont.svg#Somefont") format("svg"),
+    url("./assets/fonts/Somefont.woff") format("woff"),
+    url("./assets/fonts/Somefont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+```
