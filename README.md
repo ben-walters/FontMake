@@ -27,6 +27,14 @@ node maker.js ./Fonts . ./assets/fonts
 ```
 
 BOOSH
+```
+Parent
+|
+|- Fonts
+|   ∟ Somefont.ttf
+|
+∟ Maker.js
+∟ font-file.css
 
 ```
 @font-face {
